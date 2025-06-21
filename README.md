@@ -36,22 +36,48 @@ On tapping a repository, navigates to a detail screen that:
 - Displays the repository description, language, and stars
 - Provides a button to open the repository in the browser
 
-## 🧠 Expectations
+##  Expectations
 - Clean and readable code
 - Good structure and state management with `flutter_riverpod`
 - Proper error handling and user feedback
 - Efficient logic with loading states and pagination
 - Follows good UI/UX principles
 
-## 📦 Packages Used
+##  Packages Used
 - `flutter_riverpod`: For state management
 - `http`: For making API calls
 - `url_launcher`: For opening GitHub repo links in browser
 
-## ▶️ Getting Started
+## Getting Started
 1. Clone the repository
 2. Run `flutter pub get`
 3. Launch on your emulator or connected device:
 ```
 flutter run
 ```
+
+
+## Problem-Solving Task
+
+A problem-solving algorithm is implemented in the branch removeDuplicates, inside this file:
+
+gitbub_clone/problem_solving_file/removeDuplicates.dart
+
+Problem: Remove Duplicates from Sorted Linked List
+
+## Description
+
+Given the head of a sorted linked list, delete all duplicates so each element appears only once.
+
+## Example:
+
+Input:  head = [1, 1, 2, 3, 3, 4, 4, 8, 8, 9, 9, 10]        
+Output: 1,2,3,4,8,9,10
+
+ Solution Language: Dart
+
+## Getting Started
+
+1. Clone the repository:
+2. Checkout the removeDuplicates branch:
+3. Run the removeDuplicates.dart code on this page

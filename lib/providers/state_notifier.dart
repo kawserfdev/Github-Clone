@@ -3,13 +3,6 @@ import '../models/repo_model.dart';
 import '../services/github_service.dart';
 import '../utils/apis.dart';
 
-// final repoNotifierProvider = ChangeNotifierProvider((ref) {
-//   final service = ref.read(githubServiceProvider);
-//   return RepoChangeNotifier(service)..loadRepos();
-// });
-
-
-
 class RepoChangeNotifier extends ChangeNotifier {
   final GitHubService _service;
   RepoChangeNotifier(this._service);
